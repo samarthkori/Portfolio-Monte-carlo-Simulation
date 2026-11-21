@@ -3,6 +3,7 @@ import streamlit as st
 from engine import Run_Monte_Carlo_Simulation, return_weights
 import numpy as np
 import pandas as pd
+st.set_page_config(page_title="Portfolio Monte Carlo Simulation", page_icon="📈", layout="wide")
 
 st.title(" Portfolio Monte Carlo Simulation")
 st.markdown("---")
